@@ -50,7 +50,7 @@ app.get("/darthmaul", function (req, res) {
   res.json(darthmaul);
 });
 app.get("/obiWan", function (req, res) {
-  res.JSON(obiWan);
+  res.json(obiWan);
 });
 
 // Create a new Express route that leads users to the new Obi Wan Kenobi Data
